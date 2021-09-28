@@ -1,0 +1,81 @@
+:root{
+    --primary: #1B262C;
+    --secondary: #0F4C75;
+    --blueOne: #3282B8;
+    --blueTwo:#BBE1FA;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+}
+
+a:link {
+    font-size: 18px;
+    color: white;
+}
+
+a:hover {
+    color: var(--blueTwo)
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+}
+
+h2 {
+    color: white;
+    display: inline;
+}
+
+.navbar{
+    max-height: 60px;
+    background-color:var(--secondary);
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 10px 23px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 23px -13px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 23px -13px rgba(0,0,0,0.75);
+}
+
+.navbar img {
+    width: 25px;
+    height: 45px;
+    display: inline;
+    margin:0 10px 10px 10px;
+    padding: 0;
+}
+
+.navbar_r {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.img-slider {
+    margin-top: -320px;
+}
+
+.btn-pay {
+    display: block;
+    border: solid var(--blueOne) 2px;
+    border-radius: 10px;
+    width: 180%;
+    text-align: center;
+    background-color: var(--blueTwo);
+    font-weight: bold;
+    padding: 2px 0;
+
+}
+
+.btn-pay-div a:link, a:visited, a:active {
+    color: var(--primary);
+}
+
+.separator {
+    border-style: none;
+    border-right: solid #fff 1px;
+    height: 30px;
+}
