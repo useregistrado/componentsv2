@@ -11,18 +11,46 @@
     font-size: 14px;
 }
 
-a:link {
+/*========================================== NAVBAR ====================================================*/
+
+a:visited, a:link, a:hover, a:active {
     font-size: 18px;
-    color: white;
-}
-
-a:hover {
-    color: var(--blueTwo)
-}
-
-a:link, a:visited, a:active {
     text-decoration:none;
+}
+
+
+.btn-pay-div a:hover {
+    color: #fff;
+}
+
+.btn-pay-div a:link {
+    color: var(--primary);
+}
+
+.btn-pay-div a:active {
+    color: var(--primary);
+}
+
+.btn-pay-div a:visited {
+    color: var(--primary);
+}
+
+
+
+.btn-opt a:link {
     color: white;
+}
+
+.btn-opt a:active {
+    color: var(--primary);
+}
+
+.btn-opt a:hover {
+    color: var(--blueTwo);
+}
+
+.btn-opt a:visited {
+    color: #fff;
 }
 
 h2 {
@@ -31,6 +59,7 @@ h2 {
 }
 
 .navbar{
+    width: 100%;
     max-height: 60px;
     background-color:var(--secondary);
     display: flex;
@@ -54,28 +83,66 @@ h2 {
     width: 50%;
 }
 
-.img-slider {
-    margin-top: -320px;
-}
-
 .btn-pay {
-    display: block;
-    border: solid var(--blueOne) 2px;
+    display: inline;    
     border-radius: 10px;
     width: 180%;
     text-align: center;
     background-color: var(--blueTwo);
     font-weight: bold;
-    padding: 2px 0;
+    padding: 2px 15px;
 
 }
 
-.btn-pay-div a:link, a:visited, a:active {
-    color: var(--primary);
+.btn-pay:hover {
+    background-color: #fff;
 }
+
+
 
 .separator {
     border-style: none;
     border-right: solid #fff 1px;
     height: 30px;
 }
+
+/*========================================== END NAVBAR ====================================================*/
+
+/*========================================== SLIDER ========================================================*/
+
+.img-slider {
+    margin-top: 0px;
+}
+
+.header__title-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 20%;
+    margin: auto;
+    position: relative;
+    bottom: 25px;
+    background: #fff;
+    height: 50px;
+    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.65);
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.65);
+
+}
+
+.header__button {
+    text-align: center;
+    width: 100%;
+}
+  
+ 
+
+/*========================================== END SLIDER =======================================================*/
+
+
+/*========================================== SERVICES =========================================================*/
+
+
+
+/*========================================== END SERVICES =====================================================*/

@@ -7,11 +7,11 @@
       </div>
       <div class="navbar_r">
         <div class="btn-pay-div"><a href="" class="btn-pay">PAGAR</a></div>
-        <div><a href="#">Servicios</a></div>
-        <div><a href="#">Nosotros</a></div>
-        <div><a href="#">Contacto</a></div>
+        <div class="btn-opt"><a href="#">Servicios</a></div>
+        <div class="btn-opt"><a href="#">Nosotros</a></div>
+        <div class="btn-opt"><a href="#">Contacto</a></div>
         <div class="separator"></div>
-        <div><a href="#">Iniciar Sesión</a></div>
+        <div class="btn-opt"><a href="#">Iniciar Sesión</a></div>
 
       </div>
     </div>
